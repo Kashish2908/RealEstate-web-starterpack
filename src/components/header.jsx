@@ -23,7 +23,7 @@ const Header = () => {
                     <Navbar.Brand href="#home" className='brand'>LOGO</Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
-                        <Nav className="ms-auto">
+                        <Nav className="ms-auto gap-2">
                             {
                                 menuData.map((item) => (
                                     <NavLink to={item.url} key={item.name}>
