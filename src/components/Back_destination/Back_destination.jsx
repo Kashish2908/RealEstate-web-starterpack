@@ -20,19 +20,20 @@ const Back_destination = () => {
       <h1 className="container text-center font-coffee">
         Backpack Destinations
       </h1>
-      <Swiper
+      <Swiper 
+      
         effect={"coverflow"}
         grabCursor={true}
-        centeredSlides={true}
-        slidesPerView={"auto"}
+        centeredSlides={false}
+        slidesPerView={"2"}
         coverflowEffect={{
-          rotate: 50,
+          rotate: 20,
           stretch: 0,
-          depth: 100,
-          modifier: 1,
+          depth: 10,
+          modifier: 2,
           slideShadows: true,
         }}
-        // pagination={true}
+        pagination={true}
         modules={[EffectCoverflow, Pagination]}
         className="mySwiper"
       >
