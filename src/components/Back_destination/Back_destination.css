@@ -16,3 +16,19 @@
     width: 100%;
     height: 100%;
   }
+
+  .swiper_web{
+    display: block;
+  }
+  .swiper_mobile{
+    display: none;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .swiper_web{
+      display: none;
+    }
+    .swiper_mobile{
+      display: block;
+    }
+  }
