@@ -110,3 +110,14 @@ a {
     font-size: 1.2rem;
   }
 }
+
+/* custom */
+.font-coffee{
+  font-family: 'Kaushan Script', cursive;
+}
+
+/* hero */
+.hero-image{
+  width: 4rem;
+}
+/* hero */
