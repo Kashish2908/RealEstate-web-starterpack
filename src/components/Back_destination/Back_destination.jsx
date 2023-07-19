@@ -35,7 +35,55 @@ const Back_destination = () => {
         }}
         pagination={true}
         modules={[EffectCoverflow, Pagination]}
-        className="mySwiper"
+        className="mySwiper swiper_web"
+      >
+        <SwiperSlide className="mb-3">
+          <img src={img1} />
+          <h5 className="text-center">Paris</h5>
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={img2} />
+          <h5 className="text-center">Paris</h5>
+
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={img3} />
+          <h5 className="text-center">Paris</h5>
+
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={img4} />
+          <h5 className="text-center">Paris</h5>
+
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={img5} />
+          <h5 className="text-center">Paris</h5>
+
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={img6} />
+          <h5 className="text-center">Paris</h5>
+
+        </SwiperSlide>
+        
+      </Swiper>
+      <Swiper 
+      
+        effect={"coverflow"}
+        grabCursor={true}
+        centeredSlides={true}
+        slidesPerView={"auto"}
+        coverflowEffect={{
+          rotate: 50,
+          stretch: 0,
+          depth: 100,
+          modifier: 1,
+          slideShadows: true,
+        }}
+        pagination={true}
+        modules={[EffectCoverflow, Pagination]}
+        className="mySwiper swiper_mobile"
       >
         <SwiperSlide className="mb-3">
           <img src={img1} />
