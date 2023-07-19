@@ -1,18 +1,1 @@
-.navbar{
-    background-color: #ddd;
-}
 
-.brand, .list_item{
-    color: #000;
-}
-
-.btn{
-    background-color: orange;
-    border: none;
-    border-radius: 50px;
-}
-
-/* hover part */
-.list_item:hover{
-    color: orange;
-}
