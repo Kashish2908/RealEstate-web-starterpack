@@ -1,0 +1,12 @@
+@media only screen and (max-width: 600px) {
+    .icon i{
+        font-size: 2rem !important;
+    }
+    .icon-head1{
+
+        font-size: 21px;
+    }
+    .icon-head2{
+        font-size: 14px;
+    }
+  }
