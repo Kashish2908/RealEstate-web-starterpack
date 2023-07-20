@@ -7,7 +7,7 @@ import aboutme from "../../Assets/Hero_images/aboutme.png";
 
 const Hero = () => {
   return (
-    <section className="Hero mt-4">
+    <section className="Hero mt-5">
 
     <div className="container">
       <div className="row text-center hero-wrapper">

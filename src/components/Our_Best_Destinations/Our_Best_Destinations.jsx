@@ -26,7 +26,7 @@ const Our_Best_Destinations = () => {
           <div class="team-boxed">
             <div class="container">
               <div class="row people">
-                <div class="col-md-12 col-lg-12 item">
+                <div class="col-md-12 col-lg-12 col-12 item">
                   <div class="box">
                     <img class="rounded-circle" src={profile1} />
                     <h3 class="name">Ben Johnson</h3>

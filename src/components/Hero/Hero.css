@@ -33,10 +33,29 @@
   }
   .heading_mobile{
     font-size: 2.5rem !important;
-    margin-left: 2.4rem;
+    margin-left: 3.4rem !important;
   }
   .text-muted{
-    margin-left: 7rem;
+    margin-left: 7rem !important;
+  }
+}
+@media only screen and (max-width: 990px) and (min-width: 600px) {
+  
+  .Hero{
+    margin-top: 4rem !important;
+  }
+  /* .icon-web{
+    display: none;
+  } */
+  /* .heading{
+    display: contents;
+  } */
+  .heading_mobile{
+    font-size: 2.5rem !important;
+    /* margin-left: 2.4rem; */
+  }
+  .text-muted{
+    /* margin-left: 7rem; */
   }
 }
 /*-----------------------------------*\
@@ -345,6 +364,14 @@
   }
 
   @media only screen and (max-width: 600px) {
+  
+    .tour-search{
+      margin-top: 1rem !important;
+      background: url('../../Assets/Hero_images/mobile-hero-bg.jpg');
+      background-repeat: round;
+    }
+  }
+  @media only screen and (max-width: 990px) {
   
     .tour-search{
       margin-top: 1rem !important;
