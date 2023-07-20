@@ -13,7 +13,7 @@ const Our_Best_Destinations = () => {
         <h1 className="font-coffee text-center mb-5">Our Reviews</h1>
       <div className="review-wrapper">
         <div class="book">
-        <div class="card1">
+        <div class="card1 ">
       <div class="img-bx">
         <img src="https://i.postimg.cc/dQ7zWbS5/img-4.jpg" alt="img" />
       </div>
