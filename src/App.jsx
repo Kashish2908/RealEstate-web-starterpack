@@ -8,6 +8,7 @@ import Our_Packages from './components/our-packages/our-packages';
 
 import Back_destination from './components/Back_destination/Back_destination';
 import Our_Best_Destinations from './components/Our_Best_Destinations/Our_Best_Destinations';
+import Contact from './components/Contact/Contact';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Back_destination />
       <Services />
       <Our_Packages />
+      <Contact/>
       <Our_Best_Destinations />
       <Footer />
 
