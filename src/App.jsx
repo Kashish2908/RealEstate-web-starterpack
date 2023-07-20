@@ -15,8 +15,8 @@ function App() {
       <Header />
       <Hero />
       <Back_destination />
-      <Our_Packages />
       <Services />
+      <Our_Packages />
       <Our_Best_Destinations />
       <Footer />
 
