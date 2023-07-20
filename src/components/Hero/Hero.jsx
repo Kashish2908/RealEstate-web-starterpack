@@ -7,27 +7,27 @@ import aboutme from "../../Assets/Hero_images/aboutme.png";
 
 const Hero = () => {
   return (
-    <section className="Hero">
+    <section className="Hero mt-4">
 
     <div className="container">
       <div className="row text-center hero-wrapper">
-        <div className="col-2 flexColCenter text-center">
+        <div className="col-2 flexColCenter text-center icon-web">
           <img src={coffee} alt="gr" className="hero-image" />
           <span>Coffee</span>
         </div>
-        <div className="col-2 flexColCenter">
+        <div className="col-2 flexColCenter icon-web">
           <img src={list} alt="gr" className="hero-image" />
           <span>Fav List</span>
         </div>
         <div className="col-4 heading">
-            <span className="font-coffee">Travelling Monks</span>
+            <span className="font-coffee heading_mobile">Travelling Monks</span>
             <span className="text-muted">Lets Explore Peace</span>
         </div>
-        <div className="col-2 flexColCenter">
+        <div className="col-2 flexColCenter icon-web">
           <img src={location} alt="gr" className="hero-image" />
           <span>Location</span>
         </div>
-        <div className="col-2 flexColCenter">
+        <div className="col-2 flexColCenter icon-web">
           <img src={aboutme} alt="gr" className="hero-image" />
           <span>About Me</span>
         </div>
