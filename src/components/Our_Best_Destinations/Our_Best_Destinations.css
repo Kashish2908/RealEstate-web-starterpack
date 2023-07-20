@@ -1,10 +1,11 @@
 .review-main{
   margin-bottom: 4rem;
+  margin-top: 5rem !important;
 }
 .review-wrapper{
     display: flex;
     justify-content: space-evenly;
-    margin-top: 5rem !important;
+    margin-top: 7rem !important;
 }
 
 .book {
@@ -167,4 +168,44 @@
     opacity:1;
   }
   
+  .review-wrapper{
+    /* display: block; */
+  }
+  @media only screen and (max-width: 600px) {
+  
+    .review-wrapper{
+      display: none;
+    }
+    .social-link {
+      width: 30px;
+      height: 30px;
+      border: 1px solid #ddd;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #666;
+      border-radius: 50%;
+      transition: all 0.3s;
+      font-size: 0.9rem;
+  }
+  
+  .social-link:hover, .social-link:focus {
+      background: #ddd;
+      text-decoration: none;
+      color: #555;
+  }
+  .card_new{
+    margin-top: -4rem;
+  }
+  .card-founder{
+    margin-left: 0rem;
+  }
+  .img-thumbnail{
+    width: 6rem !important;
+    margin-left: 4rem;
+  }
+    
+  }
+
+  /* new mobile card */
   
