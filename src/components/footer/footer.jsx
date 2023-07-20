@@ -45,9 +45,9 @@ const Footer = () => {
                                 </div>
                                 <div class="footer-social-icon">
                                     <span>Follow us</span>
-                                    <a href="#"><i class="ri-facebook-circle-fill facebook-bg"></i></a>
-                                    <a href="#"><i class="ri-twitter-fill twitter-bg"></i> </a>
-                                    <a href="#"><i class="ri-instagram-line google-bg"></i></a>
+                                    <i class="ri-facebook-circle-fill facebook-bg"></i>
+                                    <i class="ri-twitter-fill twitter-bg"></i>
+                                    <i class="ri-instagram-line google-bg"></i>
                                 </div>
                             </div>
                         </div>
