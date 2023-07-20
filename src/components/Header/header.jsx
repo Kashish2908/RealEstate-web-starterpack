@@ -65,8 +65,8 @@ function scrollFunction() {
               ))}
             </Nav>
             <Nav className="ms-auto d-flex gap-2">
-              <button className="btn btn-success">SIGN UP</button>
-              <button className="btn btn-success">LOG IN</button>
+              <button className="btn">SIGN UP</button>
+              <button className="btn">LOG IN</button>
             </Nav>
           </Navbar.Collapse>
         </Container>
