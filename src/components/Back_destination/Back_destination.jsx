@@ -31,7 +31,7 @@ const Back_destination = () => {
           stretch: 0,
           depth: 10,
           modifier: 2,
-          slideShadows: true,
+          slideShadows: false,
         }}
         pagination={true}
         modules={[EffectCoverflow, Pagination]}
