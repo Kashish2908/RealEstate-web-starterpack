@@ -2,6 +2,23 @@ import React from 'react'
 import "./our-packages.css"
 
 const Our_Packages = () => {
+    const cardData = [
+        {
+            "title": "Package Name", "img": "https://images.unsplash.com/photo-1549877452-9c387954fbc2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8cGxhY2VzfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60", "days": "3 Days & 4 Nights", "button": "Book Now"
+        },
+
+        {
+            "title": "Package Name", "img": "https://images.unsplash.com/photo-1570168007204-dfb528c6958f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1935&q=80", "days": "3 Days & 4 Nights", "button": "Book Now"
+        },
+
+        {
+            "title": "Package Name", "img": "https://images.unsplash.com/photo-1596306499317-8490232098fa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHBsYWNlc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60", "days": "3 Days & 4 Nights", "button": "Book Now"
+        },
+
+        {
+            "title": "Package Name", "img": "https://images.unsplash.com/photo-1517713982677-4b66332f98de?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80", "days": "3 Days & 4 Nights", "button": "Book Now"
+        },
+    ]
     return (
         <div className='new'>
             <div className="container mt-2 mb-5">
@@ -9,23 +26,27 @@ const Our_Packages = () => {
             </div>
             <div id="ourpackage-container">
                 <div class="boxesContainer">
+                    {cardData.map((dets) => (
+                        <div class="cardBox">
+                            <div class="card">
+                                <div class="front">
+                                    <div id="card-deets">
+                                        <h3>{dets.title}</h3>
+                                        <p>{dets.days}</p>
+                                    </div>
 
-                    <div class="cardBox">
-                        <div class="card">
-                            <div class="front">
-                                <h3>Card One</h3>
-                                <p>Hover to flip</p>
-                                <strong>&#x21bb;</strong>
-                            </div>
-                            <div class="back">
-                                <h3>Back Side One</h3>
-                                <p>Content in card one</p>
-                                <a href="#">Button 1</a>
+                                    <img src={dets.img} alt="" />
+
+                                </div>
+                                <div class="back">
+                                    <a href="#">{dets.button}</a>
+                                </div>
                             </div>
                         </div>
-                    </div>
+                    ))}
 
-                    <div class="cardBox">
+
+                    {/* <div class="cardBox">
                         <div class="card">
                             <div class="front">
                                 <h3>Card Two</h3>
@@ -68,7 +89,7 @@ const Our_Packages = () => {
                                 <a href="#">Button 4</a>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
 
                 </div>
             </div>
