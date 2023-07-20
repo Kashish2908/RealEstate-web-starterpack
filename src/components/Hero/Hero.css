@@ -20,10 +20,28 @@
   font-family: 'Poppins', sans-serif;
   font-size: 1.2rem;
 }
+@media only screen and (max-width: 600px) {
+  
+  .Hero{
+    margin-top: 4rem !important;
+  }
+  .icon-web{
+    display: none;
+  }
+  .heading{
+    display: contents;
+  }
+  .heading_mobile{
+    font-size: 2.5rem !important;
+    margin-left: 2.4rem;
+  }
+  .text-muted{
+    margin-left: 7rem;
+  }
+}
 /*-----------------------------------*\
  * #TOUR SEARCH
 \*-----------------------------------*/
-
  
 
 
@@ -213,6 +231,7 @@
     /**
      * REUSED STYLE
      */
+     
   
     .container {
       max-width: 580px;
@@ -323,4 +342,13 @@
   
     .container { max-width: 1180px; }
   
+  }
+
+  @media only screen and (max-width: 600px) {
+  
+    .tour-search{
+      margin-top: 1rem !important;
+      background: url('../../Assets/Hero_images/mobile-hero-bg.jpg');
+      background-repeat: round;
+    }
   }
