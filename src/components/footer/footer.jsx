@@ -81,7 +81,7 @@ const Footer = () => {
                                 <div class="subscribe-form">
                                     <form action="#">
                                         <input type="text" placeholder="Email Address" />
-                                        <button><i class="fab fa-telegram-plane"></i></button>
+                                        <button><i class="ri-send-plane-fill"></i></button>
                                     </form>
                                 </div>
                             </div>
