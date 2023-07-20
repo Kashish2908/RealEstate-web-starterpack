@@ -4,7 +4,7 @@ import Header from "./components/Header/header";
 import Hero from "./components/Hero/Hero";
 import Services from "./components/Services/Services";
 import Footer from "./components/footer/footer";
-import ourPackages from './components/our-packages/our-packages';
+import Our_Packages from './components/our-packages/our-packages';
 
 import Back_destination from './components/Back_destination/Back_destination';
 import Our_Best_Destinations from './components/Our_Best_Destinations/Our_Best_Destinations';
@@ -12,14 +12,14 @@ import Our_Best_Destinations from './components/Our_Best_Destinations/Our_Best_D
 function App() {
   return (
     <>
-   <Header/>
-   <Hero/>
-   <Back_destination/>
-   <ourPackages/>
-   <Services/>
-   <Our_Best_Destinations/>
-   <Footer />
-   
+      <Header />
+      <Hero />
+      <Back_destination />
+      <Our_Packages />
+      <Services />
+      <Our_Best_Destinations />
+      <Footer />
+
     </>
   );
 }

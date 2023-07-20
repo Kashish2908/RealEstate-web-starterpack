@@ -1,10 +1,14 @@
 import React from 'react'
 import "./our-packages.css"
 
-const ourPackages = () => {
+const Our_Packages = () => {
   return (
-    <h1>OUR PACKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKK</h1>
+      <>
+          <div className="container mt-2 mb-5">
+              <h1 className="font-coffee text-center mb-3">Our Packages</h1>
+          </div>
+      </>
   )
 }
 
-export default ourPackages
+export default Our_Packages
