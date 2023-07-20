@@ -16,7 +16,7 @@ import img6 from "../../Assets/Back_destinations_images/slide_image_6.jpg";
 
 const Back_destination = () => {
   return (
-    <div className="container">
+    <div className="container mt-5">
       <h1 className="container text-center font-coffee">
         Backpack Destinations
       </h1>
