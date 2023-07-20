@@ -4,7 +4,7 @@ import './Services.css'
 const Services = () => {
   return (
     <div class="container mt-2 mb-5">
-        <h1 className="font-coffee text-center mb-3">Services</h1>
+        <h1 className="font-coffee text-center mb-5">Services</h1>
         <section id="minimal-statistics">
 
             <div class="row">
