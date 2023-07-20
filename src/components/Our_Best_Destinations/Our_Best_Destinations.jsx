@@ -39,13 +39,13 @@ const Our_Best_Destinations = () => {
                     </p>
                     <div class="social">
                       <a href="#">
-                        <i class="fa fa-facebook-official"></i>
+                      <i class="fab fa-facebook-f"></i>
                       </a>
                       <a href="#">
-                        <i class="fa fa-twitter"></i>
+                      <i class="fab fa-twitter"></i>
                       </a>
                       <a href="#">
-                        <i class="fa fa-instagram"></i>
+                        <i class="fab fa-instagram"></i>
                       </a>
                     </div>
                   </div>
@@ -74,13 +74,13 @@ const Our_Best_Destinations = () => {
                     </p>
                     <div class="social">
                       <a href="#">
-                        <i class="fa fa-facebook-official"></i>
+                      <i class="fab fa-facebook-f"></i>
                       </a>
                       <a href="#">
-                        <i class="fa fa-twitter"></i>
+                      <i class="fab fa-twitter"></i>
                       </a>
                       <a href="#">
-                        <i class="fa fa-instagram"></i>
+                        <i class="fab fa-instagram"></i>
                       </a>
                     </div>
                   </div>
@@ -109,13 +109,13 @@ const Our_Best_Destinations = () => {
                     </p>
                     <div class="social">
                       <a href="#">
-                        <i class="fa fa-facebook-official"></i>
+                      <i class="fab fa-facebook-f"></i>
                       </a>
                       <a href="#">
-                        <i class="fa fa-twitter"></i>
+                      <i class="fab fa-twitter"></i>
                       </a>
                       <a href="#">
-                        <i class="fa fa-instagram"></i>
+                        <i class="fab fa-instagram"></i>
                       </a>
                     </div>
                   </div>
@@ -161,22 +161,22 @@ const Our_Best_Destinations = () => {
               <ul class="social mb-0 list-inline mt-3 text-center">
                 <li class="list-inline-item">
                   <a href="#" class="social-link">
-                    <i class="fa fa-facebook-f"></i>
+                  <i class="fas fa-user"></i>
                   </a>
                 </li>
                 <li class="list-inline-item">
                   <a href="#" class="social-link">
-                    <i class="fa fa-twitter"></i>
+                    <i class="fab fa-twitter"></i>
                   </a>
                 </li>
                 <li class="list-inline-item">
                   <a href="#" class="social-link">
-                    <i class="fa fa-instagram"></i>
+                  <i class="fab fa-instagram"></i>
                   </a>
                 </li>
                 <li class="list-inline-item">
                   <a href="#" class="social-link">
-                    <i class="fa fa-linkedin"></i>
+                    <i class="fab fa-linkedin"></i>
                   </a>
                 </li>
               </ul>
@@ -201,61 +201,22 @@ const Our_Best_Destinations = () => {
               <ul class="social mb-0 list-inline mt-3 text-center">
                 <li class="list-inline-item">
                   <a href="#" class="social-link">
-                    <i class="fa fa-facebook-f"></i>
+                  <i class="fas fa-user"></i>
                   </a>
                 </li>
                 <li class="list-inline-item">
                   <a href="#" class="social-link">
-                    <i class="fa fa-twitter"></i>
+                    <i class="fab fa-twitter"></i>
                   </a>
                 </li>
                 <li class="list-inline-item">
                   <a href="#" class="social-link">
-                    <i class="fa fa-instagram"></i>
+                  <i class="fab fa-instagram"></i>
                   </a>
                 </li>
                 <li class="list-inline-item">
                   <a href="#" class="social-link">
-                    <i class="fa fa-linkedin"></i>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div class="col-xl-3 col-sm-6 mb-5 card_new">
-            <div class="bg-white rounded shadow-sm py-5 px-4">
-              <img
-                src="https://bootstrapious.com/i/snippets/sn-team/teacher-4.jpg"
-                alt=""
-                class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm"
-              />
-              <h5 class="mb-0">Manuella Nevoresky</h5>
-              <span class="small text-uppercase text-muted card-founder">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla
-                cupiditate corrupti sapiente aperiam voluptas facilis, illum quo
-                qui adipisci, .
-              </span>
-              <ul class="social mb-0 list-inline mt-3 text-center">
-                <li class="list-inline-item">
-                  <a href="#" class="social-link">
-                    <i class="fa fa-facebook-f"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="#" class="social-link">
-                    <i class="fa fa-twitter"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="#" class="social-link">
-                    <i class="fa fa-instagram"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="#" class="social-link">
-                    <i class="fa fa-linkedin"></i>
+                    <i class="fab fa-linkedin"></i>
                   </a>
                 </li>
               </ul>
@@ -279,22 +240,61 @@ const Our_Best_Destinations = () => {
               <ul class="social mb-0 list-inline mt-3 text-center">
                 <li class="list-inline-item">
                   <a href="#" class="social-link">
-                    <i class="fa fa-facebook-f"></i>
+                  <i class="fas fa-user"></i>
                   </a>
                 </li>
                 <li class="list-inline-item">
                   <a href="#" class="social-link">
-                    <i class="fa fa-twitter"></i>
+                    <i class="fab fa-twitter"></i>
                   </a>
                 </li>
                 <li class="list-inline-item">
                   <a href="#" class="social-link">
-                    <i class="fa fa-instagram"></i>
+                  <i class="fab fa-instagram"></i>
                   </a>
                 </li>
                 <li class="list-inline-item">
                   <a href="#" class="social-link">
-                    <i class="fa fa-linkedin"></i>
+                    <i class="fab fa-linkedin"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div class="col-xl-3 col-sm-6 mb-5 card_new">
+            <div class="bg-white rounded shadow-sm py-5 px-4">
+              <img
+                src="https://bootstrapious.com/i/snippets/sn-team/teacher-4.jpg"
+                alt=""
+                class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm"
+              />
+              <h5 class="mb-0">Manuella Nevoresky</h5>
+              <span class="small text-uppercase text-muted card-founder">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla
+                cupiditate corrupti sapiente aperiam voluptas facilis, illum quo
+                qui adipisci, .
+              </span>
+              <ul class="social mb-0 list-inline mt-3 text-center">
+                <li class="list-inline-item">
+                  <a href="#" class="social-link">
+                  <i class="fas fa-user"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#" class="social-link">
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#" class="social-link">
+                  <i class="fab fa-instagram"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#" class="social-link">
+                    <i class="fab fa-linkedin"></i>
                   </a>
                 </li>
               </ul>
