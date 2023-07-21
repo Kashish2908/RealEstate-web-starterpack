@@ -205,6 +205,75 @@
     
   }
   
-
+  @media only screen and (max-width: 990px) and (min-width: 601px) {
+  
+    .review-wrapper{
+      /* display: none; */
+    }
+    .social-link {
+      width: 30px;
+      height: 30px;
+      border: 1px solid #ddd;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #666;
+      border-radius: 50%;
+      transition: all 0.3s;
+      font-size: 0.9rem;
+  }
+  
+  .social-link:hover, .social-link:focus {
+      background: #ddd;
+      text-decoration: none;
+      color: #555;
+  }
+  .card_new{
+    margin-top: -4rem;
+  }
+  .card-founder{
+    margin-left: 0rem;
+  }
+  .img-thumbnail{
+    width: 6rem !important;
+    margin-left: 4rem;
+  }
+  .cover{
+    height: 84%;
+    width: 14rem;
+  }
+    .cover img{
+      height: 100%;
+width: 100%;
+    }
+    .box img{
+      width: 68px;
+    }
+    .name{
+      font-weight:bold;
+    margin-top:0px !important;
+    margin-bottom:0px !important;
+    color:inherit;
+    font-size: 18px;
+    }
+    .team-boxed .item .description {
+      font-size:11px;
+      margin-top:-10px !important;
+      margin-bottom:1px !important;
+      text-align: left;
+    }
+    .team-boxed .social {
+      font-size: 13px;
+      color: #a2a8ae;
+    }
+    .team-boxed .people {
+      padding: 50px 0;
+      height: 40rem;
+    }
+    .book{
+      margin: 0px 40px;
+    }
+  }
+  
   /* new mobile card */
   
