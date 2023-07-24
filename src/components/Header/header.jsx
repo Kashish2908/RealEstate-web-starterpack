@@ -32,7 +32,7 @@ function scrollFunction() {
           {/* <Navbar.Brand href="#home" className="brand">
             <p>ankit</p>
           </Navbar.Brand> */}
-          <p>ankit</p>
+          <p>Logo</p>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto gap-2 hello">
