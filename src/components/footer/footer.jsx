@@ -41,7 +41,7 @@ const Footer = () => {
                         <div class="col-xl-4 col-lg-4 mb-50">
                             <div class="footer-widget">
                                 <div class="footer-logo">
-                                    <a href="index.html"><img src="https://i.ibb.co/QDy827D/ak-logo.png" class="img-fluid" alt="logo" /></a>
+                                    <a href="index.html"><img src="" class="img-fluid" alt="" />Logo</a>
                                 </div>
                                 <div class="footer-social-icon">
                                     <span>Follow us</span>
